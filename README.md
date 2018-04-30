@@ -2,8 +2,6 @@
 # iibtesting
 IIB auto-test framework using apache camel, Junit
 
-Introduction wiki: https://github.ibm.com/DSWESB/iibtesting/wiki
-
 
 original article: Lightweight Testing of Heavyweight IBM Message Broker Solutions https://dzone.com/articles/lightweight-testing
 github link: https://github.com/magnuspalmer/wmbtesting/wiki/Article-about-testing-WMB
