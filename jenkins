@@ -1,0 +1,98 @@
+#!/usr/bin/env groovy
+
+import groovy.json.JsonSlurper
+
+pipeline {
+    agent any
+
+    environment {
+        PJ_ROOT = "../$JOB_NAME@script"
+        WK_ROOT = "$WORKSPACE/$BUILD_NUMBER"
+    }
+
+    stages {
+        stage('Parse Parameter') {
+            steps {
+                script {
+                    println "Parse Json Parameter"
+                    def jsonStr = new JsonSlurper().parseText(AutoTest)
+                    def testset = jsonStr.testcase_set
+                    for (key in testset.keySet()) {
+                        if (key.contains("testcase") == true) {
+                            TestCase = testset[key]
+                        }
+                        if (key.contains("data1") == true) {
+                            data1 = testset[key]
+                        }
+                        if (key.contains("data2") == true) {
+                            data2 = testset[key]
+                        }
+                        if (key.contains("data") == true) {
+                            data = testset[key]
+                        }
+                    }
+                    println "Test case class name : " + TestCase
+                }
+            }
+        }
+        stage('Copy Code To Job Workspace'){
+            steps {
+                sh "mkdir $WK_ROOT"
+                sh "cp -R $PJ_ROOT/* $WK_ROOT"
+            }
+        }
+        stage('Set Parameter'){
+            steps {
+                script {
+                    def propPath = WK_ROOT + "/src/test/resources/RightTime/"
+                    if (TestCase.contains("RightTime")) {
+                        println "Set Right Time input data file parameters."
+                        if (TestCase == "RightTimeSOTest") {
+                            def file = new File(propPath + 'SO.properties')
+                            def newConfig = file.text.replaceAll('SO.xml', data)
+                            file.write(newConfig)
+                        }
+                        if (TestCase == "RightTimeBGTest") {
+                            def file = new File(propPath + 'BG.properties')
+                            def newConfig = file.text.replaceAll("BG.xml", data).replaceAll("BG2.xml", data1).replaceAll("BG2_preSO.xml", data2)
+                            file.write(newConfig)
+                        }
+                        if (TestCase == "RightTimeQUTest") {
+                            def file = new File(propPath + 'QU.properties')
+                            def newConfig = file.text.replaceAll("QU.xml", data)
+                            file.write(newConfig)
+                        }
+                    }
+                    else {
+                        println "Non-RT app do not need set data file parameters."
+                    }
+                }
+            }
+        }
+        stage('Gradle Build and Run TestCase') {
+            steps {
+                dir(WK_ROOT) {
+                    sh "./gradlew clean"
+                    sh "./gradlew -Dtest.single=$TestCase test"
+                }
+            }
+        }
+    }
+    post {
+        always {
+            dir(WK_ROOT) {
+                publishHTML([allowMissing: false,
+                             alwaysLinkToLastBuild: true,
+                             keepAll: true,
+                             reportDir: './build/reports/tests/test/',
+                             reportFiles: 'index.html',
+                             reportName: 'Test Result HTML Report',
+                             reportTitles: ''])
+            }
+            println "Archive test results HTML report. Please check from job left panel - 'Test Result HTML Report' to see test case result."
+
+            sh "rm -rf $WK_ROOT/*"
+            println "Clear workspace done."
+        }
+    }
+}

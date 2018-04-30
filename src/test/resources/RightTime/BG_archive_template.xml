@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Billing>
+    <Event>
+        <EVENT_ID>@EVENT_ID@</EVENT_ID>
+        <BO_EVENT_ID>@BO_EVENT_ID@</BO_EVENT_ID>
+        <EVENT_DATE>@EVENT_DATE@</EVENT_DATE>
+        <EVENT_TIME>@EVENT_TIME@</EVENT_TIME>
+        <BILLING_DOC_NUM>@BILLING_DOC_NUM@</BILLING_DOC_NUM>
+        <WBI_TIME>2017-06-30T05:52:15.092093-04:00</WBI_TIME>
+    </Event>
+    <Status>
+        <Message>Global Procedure Successfully Completed.</Message>
+    </Status>
+</Billing>

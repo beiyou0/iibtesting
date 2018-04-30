@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NS1:SapZodsorder xmlns:NS1="http://www.ibm.com/xmlns/prod/websphere/j2ca/sap/sapzodsorder">
+    <EvtId>00000000000072689105</EvtId>
+    <BoEvtId>00000000000022363718</BoEvtId>
+    <EvtDate>20170516</EvtDate>
+    <EvtTime>040501</EvtTime>
+    <SapZodsorderZ2odsordSalesOrd000>
+        <Vbeln>0060239490</Vbeln>
+        <Mandt>100</Mandt>
+        <Auart>ZWOR</Auart>
+        <OrgOrderNo>0026843759</OrgOrderNo>
+        <ContractNo>0000056706</ContractNo>
+        <Vtweg>J</Vtweg>
+        <Spart>00</Spart>
+        <Vkorg>0428</Vkorg>
+        <Vkbur>0428</Vkbur>
+        <Kunnr>0007170767</Kunnr>
+        <SoldToCustNameFull>NIPPON TELEGRAPH AND TELEPHONEWEST CORPORATION</SoldToCustNameFull>
+        <Name1>NIPPON TELEGRAPH AND TELEPHONE</Name1>
+        <Name2>WEST CORPORATION</Name2>
+        <Stras>3-15, Banba-cho Chuo-ku</Stras>
+        <Ort01>Osaka,</Ort01>
+        <Regio>27</Regio>
+        <Pstlz>540-8511</Pstlz>
+        <Iso3>JPN</Iso3>
+        <RselCustNum>0003625922</RselCustNum>
+        <ShipToCustNum>0007170767</ShipToCustNum>
+        <ShipToCustNameFull>NIPPON TELEGRAPH AND TELEPHONEWEST CORPORATION</ShipToCustNameFull>
+        <ShipToCustName1>NIPPON TELEGRAPH AND TELEPHONE</ShipToCustName1>
+        <ShipToCustName2>WEST CORPORATION</ShipToCustName2>
+        <ShipToCustStras>3-15, Banba-cho Chuo-ku</ShipToCustStras>
+        <ShipToCustOrt01>Osaka,</ShipToCustOrt01>
+        <ShipToCustRegio>27</ShipToCustRegio>
+        <ShipToCustPstlz>540-8511</ShipToCustPstlz>
+        <ShipToCntryCode>JPN</ShipToCntryCode>
+    </SapZodsorderZ2odsordSalesOrd000>
+    <SapZodsorderZ2odsordSalesOrd1002>
+        <Vbeln>0060239490</Vbeln>
+        <Mandt>100</Mandt>
+        <PayerCustNum>0007144314</PayerCustNum>
+        <BillToCustNum>0007144314</BillToCustNum>
+        <BillToPurchOrdNum>P17090</BillToPurchOrdNum>
+        <Bstdk>05/12/2017 00:00</Bstdk>
+        <Audat>05/12/2017 00:00</Audat>
+        <BillDate>05/13/2017 00:00</BillDate>
+        <IsoCode>JPY</IsoCode>
+        <ExchgRatePlan>    1.00000</ExchgRatePlan>
+        <OrderQty>4.000</OrderQty>
+        <OpenOrderQty>0.000</OpenOrderQty>
+        <OpenOrderAmt>0</OpenOrderAmt>
+        <UsdExtndPriceTot>82.3000000</UsdExtndPriceTot>
+        <Netwr>9748</Netwr>
+        <SalesOrgExtndPriceTot>9748.0000000</SalesOrgExtndPriceTot>
+        <PayerCntryCode>JPN</PayerCntryCode>
+        <CntribtnPtsTot>             0.00</CntribtnPtsTot>
+        <CntribtnUsersTot>             0.00</CntribtnUsersTot>
+        <OverallStatCode>C</OverallStatCode>
+        <DlvryStatCode>C</DlvryStatCode>
+        <RejectionCode>A</RejectionCode>
+        <SapOrdCredFlag>N</SapOrdCredFlag>
+        <SapOrdComplFlag>Y</SapOrdComplFlag>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        <Ihrez>116232163</Ihrez>
+        <Bsark>ZPAC</Bsark>
+        <DlvryBlockModDate>05/12/2017 02:55</DlvryBlockModDate>
+        <PriorDlvryBlockCode>94</PriorDlvryBlockCode>
+        <Zzkondacon>H</Zzkondacon>
+        <TranPriceLevel>H</TranPriceLevel>
+        <Zzsvpindic>D</Zzsvpindic>
+        <Zzoffer>NIM</Zzoffer>
+        <Cmgst>A</Cmgst>
+        <Brsch>003T</Brsch>
+        <Prsdt>05/12/2017 00:00</Prsdt>
+        <ZzopcExcept>30</ZzopcExcept>
+        <Zzaccept>05/12/2017 00:00</Zzaccept>
+        <ZzfvCtvar>STD</ZzfvCtvar>
+        <Zzcovid>0000379</Zzcovid>
+        <Zziac>2530</Zziac>
+        <Zzentid>083302</Zzentid>
+        <Zzsubisu>AA</Zzsubisu>
+        <Zzbillordday>00</Zzbillordday>
+        <Vdatu>05/13/2017 00:00</Vdatu>
+        <Kurst>ZLPR</Kurst>
+        <Zzportalid>BPO</Zzportalid>
+    </SapZodsorderZ2odsordSalesOrd1002>
+    <SapZodsorderZ2odsordLineItem002>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Mandt>100</Mandt>
+        <OrgOrderItemNo>000070</OrgOrderItemNo>
+        <Matnr>E07V0LL</Matnr>
+        <Kwmeng>2.000</Kwmeng>
+        <AllocdQty>2.000</AllocdQty>
+        <ShippedQty>2.000</ShippedQty>
+        <ExchgRatePlan>    1.00000</ExchgRatePlan>
+        <LocalPrice>2617</LocalPrice>
+        <UsdPrice>22.0950000</UsdPrice>
+        <CompanyCodePrice>2617.0000000</CompanyCodePrice>
+        <LocalAmt>5234</LocalAmt>
+        <ExtndAmt>44.1900000</ExtndAmt>
+        <CompanyCodeAmt>5234.0000000</CompanyCodeAmt>
+        <PromisedDlvryDate>05/12/2017 00:00</PromisedDlvryDate>
+        <ContributionExtndPts>               0.00</ContributionExtndPts>
+        <PromisedShipDate>05/12/2017 00:00</PromisedShipDate>
+        <ContributionExtndUsers>               0.00</ContributionExtndUsers>
+        <RequestedShipDate>05/12/2017 00:00</RequestedShipDate>
+        <OverallStatCode>C</OverallStatCode>
+        <DlvryStatCode>C</DlvryStatCode>
+        <RejectionCode>A</RejectionCode>
+        <StartDate>04/01/2017 00:00</StartDate>
+        <EndDate>03/31/2018 00:00</EndDate>
+        <FulfllmtOrdNum>0039359478</FulfllmtOrdNum>
+        <Pstyv>ZOBI</Pstyv>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        <Vgbel>0026843759</Vgbel>
+        <Vgpos>000070</Vgpos>
+        <Fkrel>A</Fkrel>
+        <Wadat>05/12/2017 00:00</Wadat>
+        <DaysToShip>    0</DaysToShip>
+        <LocalTaxAmt>418</LocalTaxAmt>
+        <UsdTaxAmt>3.5300000</UsdTaxAmt>
+        <SalesOrgTaxAmt>418.0000000</SalesOrgTaxAmt>
+        <Posex>000001</Posex>
+        <Lfdat>05/12/2017 00:00</Lfdat>
+        <Zzrennum>0026843759</Zzrennum>
+        <Zzrenitem>000070</Zzrenitem>
+        <Vlaufz>000</Vlaufz>
+        <Zzcontrolleddist>G</Zzcontrolleddist>
+        <Prsdt>05/12/2017 00:00</Prsdt>
+        <Zzpartnertyp>FB</Zzpartnertyp>
+        <Zzaccrlevel>SPVL</Zzaccrlevel>
+        <Mvgr5>B16</Mvgr5>
+        <LegacyPriceUsedFlag>N</LegacyPriceUsedFlag>
+        <Zzitterm>00</Zzitterm>
+        <Zzsubscripitem>000000</Zzsubscripitem>
+        <Zzmtart>ZLIC</Zzmtart>
+        <Zzoveragevalue>0.00</Zzoveragevalue>
+        <ZzproratedPrice>0</ZzproratedPrice>
+        <Zzrefcaposnr>000000</Zzrefcaposnr>
+    </SapZodsorderZ2odsordLineItem002>
+    <SapZodsorderZ2odsordLineItem002>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Mandt>100</Mandt>
+        <OrgOrderItemNo>000420</OrgOrderItemNo>
+        <Matnr>E0ELCLL</Matnr>
+        <Kwmeng>2.000</Kwmeng>
+        <AllocdQty>2.000</AllocdQty>
+        <ShippedQty>2.000</ShippedQty>
+        <ExchgRatePlan>    1.00000</ExchgRatePlan>
+        <LocalPrice>2257</LocalPrice>
+        <UsdPrice>19.0550000</UsdPrice>
+        <CompanyCodePrice>2257.0000000</CompanyCodePrice>
+        <LocalAmt>4514</LocalAmt>
+        <ExtndAmt>38.1100000</ExtndAmt>
+        <CompanyCodeAmt>4514.0000000</CompanyCodeAmt>
+        <PromisedDlvryDate>05/12/2017 00:00</PromisedDlvryDate>
+        <ContributionExtndPts>               0.00</ContributionExtndPts>
+        <PromisedShipDate>05/12/2017 00:00</PromisedShipDate>
+        <ContributionExtndUsers>               0.00</ContributionExtndUsers>
+        <RequestedShipDate>05/12/2017 00:00</RequestedShipDate>
+        <OverallStatCode>C</OverallStatCode>
+        <DlvryStatCode>C</DlvryStatCode>
+        <RejectionCode>A</RejectionCode>
+        <StartDate>04/01/2017 00:00</StartDate>
+        <EndDate>03/31/2018 00:00</EndDate>
+        <FulfllmtOrdNum>0039359478</FulfllmtOrdNum>
+        <Pstyv>ZOBI</Pstyv>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        <Vgbel>0026843759</Vgbel>
+        <Vgpos>000420</Vgpos>
+        <Fkrel>A</Fkrel>
+        <Wadat>05/12/2017 00:00</Wadat>
+        <DaysToShip>    0</DaysToShip>
+        <LocalTaxAmt>361</LocalTaxAmt>
+        <UsdTaxAmt>3.0500000</UsdTaxAmt>
+        <SalesOrgTaxAmt>361.0000000</SalesOrgTaxAmt>
+        <Posex>000002</Posex>
+        <Lfdat>05/12/2017 00:00</Lfdat>
+        <Zzrennum>0026843759</Zzrennum>
+        <Zzrenitem>000420</Zzrenitem>
+        <Vlaufz>000</Vlaufz>
+        <Zzcontrolleddist>G</Zzcontrolleddist>
+        <Prsdt>05/12/2017 00:00</Prsdt>
+        <Zzpartnertyp>FB</Zzpartnertyp>
+        <Zzaccrlevel>SPVL</Zzaccrlevel>
+        <Mvgr5>B16</Mvgr5>
+        <LegacyPriceUsedFlag>N</LegacyPriceUsedFlag>
+        <Zzitterm>00</Zzitterm>
+        <Zzsubscripitem>000000</Zzsubscripitem>
+        <Zzmtart>ZLIC</Zzmtart>
+        <Zzoveragevalue>0.00</Zzoveragevalue>
+        <ZzproratedPrice>0</ZzproratedPrice>
+        <Zzrefcaposnr>000000</Zzrefcaposnr>
+    </SapZodsorderZ2odsordLineItem002>
+    <SapZodsorderZ2odsordLineItem1001>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Zzrelitemno>000000</Zzrelitemno>
+        <Zzorigitem>000000</Zzorigitem>
+        <Zzcotermitem>000000</Zzcotermitem>
+        <Zzalignitem>000000</Zzalignitem>
+        <Zztermtotal>00</Zztermtotal>
+        <Bstkd>P17090</Bstkd>
+        <Zzrnwterm>00</Zzrnwterm>
+        <Zzsaasnumrnwl>0000</Zzsaasnumrnwl>
+        <Zzidoc>0000000116232163</Zzidoc>
+        <PrecDocNum>0026843759</PrecDocNum>
+        <PrecDocLineItem>000070</PrecDocLineItem>
+        <Zzrnwrebqty>0.000</Zzrnwrebqty>
+        <Mbdat>20170512</Mbdat>
+        <Edatu>20170512</Edatu>
+        <Zzmigrfromtcv>            0.00</Zzmigrfromtcv>
+        <Zzmigrfromacv>            0.00</Zzmigrfromacv>
+        <Zzreplacedterm>00</Zzreplacedterm>
+        <VbepWadat>20170512</VbepWadat>
+        <Zzrelextenitem>000000</Zzrelextenitem>
+        <Zzpriorrnwterm>00</Zzpriorrnwterm>
+        <Zzorigterm>00</Zzorigterm>
+        <Zzsvirebqty>0.000</Zzsvirebqty>
+        <Zzremainingdue>0</Zzremainingdue>
+        <ZzremainingdueUs>0.00</ZzremainingdueUs>
+    </SapZodsorderZ2odsordLineItem1001>
+    <SapZodsorderZ2odsordLineItem1001>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Zzrelitemno>000000</Zzrelitemno>
+        <Zzorigitem>000000</Zzorigitem>
+        <Zzcotermitem>000000</Zzcotermitem>
+        <Zzalignitem>000000</Zzalignitem>
+        <Zztermtotal>00</Zztermtotal>
+        <Bstkd>P17090</Bstkd>
+        <Zzrnwterm>00</Zzrnwterm>
+        <Zzsaasnumrnwl>0000</Zzsaasnumrnwl>
+        <Zzidoc>0000000116232163</Zzidoc>
+        <PrecDocNum>0026843759</PrecDocNum>
+        <PrecDocLineItem>000420</PrecDocLineItem>
+        <Zzrnwrebqty>0.000</Zzrnwrebqty>
+        <Mbdat>20170512</Mbdat>
+        <Edatu>20170512</Edatu>
+        <Zzmigrfromtcv>            0.00</Zzmigrfromtcv>
+        <Zzmigrfromacv>            0.00</Zzmigrfromacv>
+        <Zzreplacedterm>00</Zzreplacedterm>
+        <VbepWadat>20170512</VbepWadat>
+        <Zzrelextenitem>000000</Zzrelextenitem>
+        <Zzpriorrnwterm>00</Zzpriorrnwterm>
+        <Zzorigterm>00</Zzorigterm>
+        <Zzsvirebqty>0.000</Zzsvirebqty>
+        <Zzremainingdue>0</Zzremainingdue>
+        <ZzremainingdueUs>0.00</ZzremainingdueUs>
+    </SapZodsorderZ2odsordLineItem1001>
+    <SapZodsorderZ2odsordLineItem2002>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Zzportalid>BPO</Zzportalid>
+        <Zzlastbillamt>0.00</Zzlastbillamt>
+        <Zzlegoppnumber>lOn1</Zzlegoppnumber>
+    </SapZodsorderZ2odsordLineItem2002>
+    <SapZodsorderZ2odsordLineItem2002>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Zzportalid>BPO</Zzportalid>
+        <Zzlastbillamt>0.00</Zzlastbillamt>
+        <Zzlegoppnumber>loooooooooooN2</Zzlegoppnumber>
+    </SapZodsorderZ2odsordLineItem2002>
+    <SapZodsorderZ2odsordSlashdLineItem000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000080</Posnr>
+        <Mandt>100</Mandt>
+        <Uepos>000070</Uepos>
+        <Matnr>AUJ9ZLL</Matnr>
+        <Kwmeng>2.000</Kwmeng>
+        <LocalPrice>2094</LocalPrice>
+        <UsdPrice>17.6750000</UsdPrice>
+        <CompanyCodePrice>2093.5000000</CompanyCodePrice>
+        <LocalAmt>4187</LocalAmt>
+        <ExtndAmt>35.3500000</ExtndAmt>
+        <CompanyCodeAmt>4187.0000000</CompanyCodeAmt>
+        <ShippedQty>2.000</ShippedQty>
+        <RejectionCode>A</RejectionCode>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordSlashdLineItem000>
+    <SapZodsorderZ2odsordSlashdLineItem000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000090</Posnr>
+        <Mandt>100</Mandt>
+        <Uepos>000070</Uepos>
+        <Matnr>AUJA0LL</Matnr>
+        <Kwmeng>2.000</Kwmeng>
+        <LocalPrice>524</LocalPrice>
+        <UsdPrice>4.4200000</UsdPrice>
+        <CompanyCodePrice>523.5000000</CompanyCodePrice>
+        <LocalAmt>1047</LocalAmt>
+        <ExtndAmt>8.8400000</ExtndAmt>
+        <CompanyCodeAmt>1047.0000000</CompanyCodeAmt>
+        <ShippedQty>2.000</ShippedQty>
+        <RejectionCode>A</RejectionCode>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordSlashdLineItem000>
+    <SapZodsorderZ2odsordSlashdLineItem000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000430</Posnr>
+        <Mandt>100</Mandt>
+        <Uepos>000420</Uepos>
+        <Matnr>AVUY6LL</Matnr>
+        <Kwmeng>2.000</Kwmeng>
+        <LocalPrice>1806</LocalPrice>
+        <UsdPrice>15.2450000</UsdPrice>
+        <CompanyCodePrice>1805.5000000</CompanyCodePrice>
+        <LocalAmt>3611</LocalAmt>
+        <ExtndAmt>30.4900000</ExtndAmt>
+        <CompanyCodeAmt>3611.0000000</CompanyCodeAmt>
+        <ShippedQty>2.000</ShippedQty>
+        <RejectionCode>A</RejectionCode>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordSlashdLineItem000>
+    <SapZodsorderZ2odsordSlashdLineItem000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000440</Posnr>
+        <Mandt>100</Mandt>
+        <Uepos>000420</Uepos>
+        <Matnr>AVUY7LL</Matnr>
+        <Kwmeng>2.000</Kwmeng>
+        <LocalPrice>452</LocalPrice>
+        <UsdPrice>3.8100000</UsdPrice>
+        <CompanyCodePrice>451.5000000</CompanyCodePrice>
+        <LocalAmt>903</LocalAmt>
+        <ExtndAmt>7.6200000</ExtndAmt>
+        <CompanyCodeAmt>903.0000000</CompanyCodeAmt>
+        <ShippedQty>2.000</ShippedQty>
+        <RejectionCode>A</RejectionCode>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordSlashdLineItem000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>AG</Parvw>
+        <Kunnr>0007170767</Kunnr>
+        <Parnr>0000000000</Parnr>
+        <Adrnr>9037311264</Adrnr>
+        <Adrda>E</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>RE</Parvw>
+        <Kunnr>0007144314</Kunnr>
+        <Parnr>0000000000</Parnr>
+        <Adrnr>9037311265</Adrnr>
+        <Adrda>E</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>RG</Parvw>
+        <Kunnr>0007144314</Kunnr>
+        <Parnr>0000000000</Parnr>
+        <Adrnr>9037311266</Adrnr>
+        <Adrda>E</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>WE</Parvw>
+        <Kunnr>0007170767</Kunnr>
+        <Parnr>0000000000</Parnr>
+        <Adrnr>9037311267</Adrnr>
+        <Adrda>E</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>YR</Parvw>
+        <Kunnr>0003625922</Kunnr>
+        <Parnr>0000000000</Parnr>
+        <Adrnr>0010398581</Adrnr>
+        <Adrda>D</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>Z1</Parvw>
+        <Parnr>0000218316</Parnr>
+        <Adrnr>0000031450</Adrnr>
+        <Adrda>D</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>Z2</Parvw>
+        <Parnr>0000218316</Parnr>
+        <Adrnr>0000031450</Adrnr>
+        <Adrda>D</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>Z4</Parvw>
+        <Parnr>0000182873</Parnr>
+        <Adrnr>0000025847</Adrnr>
+        <Adrda>D</Adrda>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>ZT</Parvw>
+        <Parnr>0003509583</Parnr>
+        <Adrnr>0000031450</Adrnr>
+        <Adrda>D</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordCustPf000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000000</Posnr>
+        <Mandt>100</Mandt>
+        <Parvw>ZW</Parvw>
+        <Parnr>0000218316</Parnr>
+        <Adrnr>9037311263</Adrnr>
+        <Adrda>E</Adrda>
+        <CntryCode>JPN</CntryCode>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordCustPf000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>0000025847</Adrnr>
+        <Adrda>D</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>NiandC Partners Inc.</Name1>
+        <Name2>パートナー事業部 大野 恵</Name2>
+        <Stras>14F, 8-1, Akashi-cho</Stras>
+        <Ort01>Chuo-ku,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>104-0044</Pstlz>
+        <Spras>J</Spras>
+        <Regio>13</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>0000031450</Adrnr>
+        <Adrda>D</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>NIPPON TELEGRAPH AND TELEPHONE</Name1>
+        <Name2>WEST CORPORATION</Name2>
+        <Name3>営業本部 マーケティング部 高田 克己</Name3>
+        <Stras>3-15, Banba-cho Chuo-ku</Stras>
+        <Ort01>Osaka,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>540-8511</Pstlz>
+        <Spras>J</Spras>
+        <Regio>27</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>0010398581</Adrnr>
+        <Adrda>D</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>Nippon Information and</Name1>
+        <Name2>Communicatio Corporation</Name2>
+        <Name4>St.Luke' Tower 15F</Name4>
+        <Stras>8-1 Akashi-cho</Stras>
+        <Ort01>Chuo-ku</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>104-0044</Pstlz>
+        <Spras>J</Spras>
+        <Regio>13</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>9037311263</Adrnr>
+        <Adrda>E</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>郷 さゆり</Name1>
+        <Ort01>Osaka,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>#</Pstlz>
+        <Spras>J</Spras>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        <Zzemailadd>Sayuri_Go@NIandC.co.jp</Zzemailadd>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>9037311264</Adrnr>
+        <Adrda>E</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>NIPPON TELEGRAPH AND TELEPHONE</Name1>
+        <Name2>WEST CORPORATION</Name2>
+        <Stras>3-15, Banba-cho Chuo-ku</Stras>
+        <Ort01>Osaka,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>540-8511</Pstlz>
+        <Spras>J</Spras>
+        <Regio>27</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>9037311265</Adrnr>
+        <Adrda>E</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>NiandC Partners Inc.</Name1>
+        <Stras>2F, 6-4, Akashi-cho</Stras>
+        <Ort01>Chuo-ku,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>104-0044</Pstlz>
+        <Spras>J</Spras>
+        <Regio>13</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>9037311266</Adrnr>
+        <Adrda>E</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>NiandC Partners Inc.</Name1>
+        <Stras>2F, 6-4, Akashi-cho</Stras>
+        <Ort01>Chuo-ku,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>104-0044</Pstlz>
+        <Spras>J</Spras>
+        <Regio>13</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPrtnrAdrInfo000>
+        <Adrnr>9037311267</Adrnr>
+        <Adrda>E</Adrda>
+        <Mandt>100</Mandt>
+        <Name1>NIPPON TELEGRAPH AND TELEPHONE</Name1>
+        <Name2>WEST CORPORATION</Name2>
+        <Stras>3-15, Banba-cho Chuo-ku</Stras>
+        <Ort01>Osaka,</Ort01>
+        <CntryCode>JPN</CntryCode>
+        <Pstlz>540-8511</Pstlz>
+        <Spras>J</Spras>
+        <Regio>27</Regio>
+        <Ernam>AKAVALENKA</Ernam>
+        <Zcrdatetime>05/12/2017 00:00</Zcrdatetime>
+        <Zusrname>AKAVALENKA</Zusrname>
+        <Zchdatetime>05/12/2017 02:46</Zchdatetime>
+        <Ztrantype>insert</Ztrantype>
+        <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+    </SapZodsorderZ2odsordPrtnrAdrInfo000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Kschl>ZDTX</Kschl>
+        <Kwert>-2036</Kwert>
+        <Kbetr>-28.00</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Kschl>ZFIN</Kschl>
+        <Kwert>5234</Kwert>
+        <Kbetr>0</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Kschl>ZP00</Kschl>
+        <Kwert>7270</Kwert>
+        <Kbetr>0</Kbetr>
+        <BaselineSrp>8552</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Kschl>ZP04</Kschl>
+        <Kwert>0</Kwert>
+        <Kbetr>0.00</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000070</Posnr>
+        <Kschl>ZVAR</Kschl>
+        <Kwert>1</Kwert>
+        <Kbetr>0</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Kschl>ZDTX</Kschl>
+        <Kwert>-1755</Kwert>
+        <Kbetr>-28.00</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Kschl>ZFIN</Kschl>
+        <Kwert>4514</Kwert>
+        <Kbetr>0</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Kschl>ZP00</Kschl>
+        <Kwert>5700</Kwert>
+        <Kbetr>0</Kbetr>
+        <BaselineSrp>6704</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Kschl>ZP04</Kschl>
+        <Kwert>570</Kwert>
+        <Kbetr>10.00</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsordPricing000>
+        <Vbeln>0060239490</Vbeln>
+        <Posnr>000420</Posnr>
+        <Kschl>ZVAR</Kschl>
+        <Kwert>1</Kwert>
+        <Kbetr>0</Kbetr>
+        <BaselineSrp>0</BaselineSrp>
+        <SapExtrctDate>05/16/2017 04:06:55</SapExtrctDate>
+    </SapZodsorderZ2odsordPricing000>
+    <SapZodsorderZ2odsstatMain00064864807>
+        <EvtId>00000000000072689105</EvtId>
+        <BoEvtId>00000000000037485951</BoEvtId>
+        <EvtDate>20170516</EvtDate>
+        <EvtTime>040501</EvtTime>
+        <SapZodsorderZ2odsstatHeader000879514947>
+            <Vbeln>0060239490</Vbeln>
+            <Auart>ZWOR</Auart>
+            <Vkorg>0428</Vkorg>
+            <Vkbur>0428</Vkbur>
+            <Ihrez>116232163</Ihrez>
+            <Stsma>ZDPLORD</Stsma>
+            <Gbstk>C</Gbstk>
+            <Lfstk>C</Lfstk>
+            <Abstk>A</Abstk>
+            <Cmgst>A</Cmgst>
+            <CreditFlag>Y</CreditFlag>
+            <CompFlag>Y</CompFlag>
+            <ZzopcExcept>30</ZzopcExcept>
+            <Zcrdatetime>05/12/2017 02:46</Zcrdatetime>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/15/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatHeader000879514947>
+        <SapZodsorderZ2odsstatDetail0001367792192>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000070</Posnr>
+            <Gbsta>C</Gbsta>
+            <Lfsta>C</Lfsta>
+            <Absta>A</Absta>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/12/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatDetail0001367792192>
+        <SapZodsorderZ2odsstatDetail0001367792192>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000080</Posnr>
+            <Gbsta>C</Gbsta>
+            <Lfsta>C</Lfsta>
+            <Absta>A</Absta>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/12/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatDetail0001367792192>
+        <SapZodsorderZ2odsstatDetail0001367792192>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000090</Posnr>
+            <Gbsta>C</Gbsta>
+            <Lfsta>C</Lfsta>
+            <Absta>A</Absta>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/12/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatDetail0001367792192>
+        <SapZodsorderZ2odsstatDetail0001367792192>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000420</Posnr>
+            <Gbsta>C</Gbsta>
+            <Lfsta>C</Lfsta>
+            <Absta>A</Absta>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/12/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatDetail0001367792192>
+        <SapZodsorderZ2odsstatDetail0001367792192>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000430</Posnr>
+            <Gbsta>C</Gbsta>
+            <Lfsta>C</Lfsta>
+            <Absta>A</Absta>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/12/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatDetail0001367792192>
+        <SapZodsorderZ2odsstatDetail0001367792192>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000440</Posnr>
+            <Gbsta>C</Gbsta>
+            <Lfsta>C</Lfsta>
+            <Absta>A</Absta>
+            <Ztrantype>insert</Ztrantype>
+            <Zchdatetime>05/12/2017 00:00</Zchdatetime>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatDetail0001367792192>
+        <SapZodsorderZ2odsstatUstat0001383022628>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000000</Posnr>
+            <Stat>E0001</Stat>
+            <Inact>X</Inact>
+            <Zchdatetime>05/12/2017 02:46:52</Zchdatetime>
+            <Ztrantype>insert</Ztrantype>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatUstat0001383022628>
+        <SapZodsorderZ2odsstatUstat0001383022628>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000000</Posnr>
+            <Stat>E0002</Stat>
+            <Zchdatetime>05/12/2017 02:46:56</Zchdatetime>
+            <Ztrantype>insert</Ztrantype>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatUstat0001383022628>
+        <SapZodsorderZ2odsstatUstat0001383022628>
+            <Vbeln>0060239490</Vbeln>
+            <Posnr>000000</Posnr>
+            <Stat>E0008</Stat>
+            <Inact>X</Inact>
+            <Zchdatetime>05/12/2017 02:55:49</Zchdatetime>
+            <Ztrantype>insert</Ztrantype>
+            <Zextractstamp>05/16/2017 04:06:55</Zextractstamp>
+        </SapZodsorderZ2odsstatUstat0001383022628>
+    </SapZodsorderZ2odsstatMain00064864807>
+</NS1:SapZodsorder>

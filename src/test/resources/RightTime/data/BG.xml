@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NS1:SapZodsbilling xmlns:NS1="http://www.ibm.com/xmlns/prod/websphere/j2ca/sap/sapzodsbilling">
+     <EvtId>00000000000000421119</EvtId>
+     <BoEvtId>00000000000000014879</BoEvtId>
+     <EvtDate>20170630</EvtDate>
+     <EvtTime>052657</EvtTime>
+     <SapZodsbillingZ2odsbillHeader001>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <SapClnt>600</SapClnt>
+          <BillgDate>06/22/2017</BillgDate>
+          <SapAcctgStatCode>C</SapAcctgStatCode>
+          <SapBillgDocTypeCode>ZORD</SapBillgDocTypeCode>
+          <SapBillgCatCode>L</SapBillgCatCode>
+          <SapSalesDocCatCode>M</SapSalesDocCatCode>
+          <ShipToCustNum>0003002846</ShipToCustNum>
+          <PayerCustNum>0003002846</PayerCustNum>
+          <CurrncyCode>INR</CurrncyCode>
+          <ExchgRatePlan>    1.00000</ExchgRatePlan>
+          <BillgQtyTot>1.000</BillgQtyTot>
+          <LocalBillgAmtTot>664125.00</LocalBillgAmtTot>
+          <UsdBillgAmtTot>11000.0000000</UsdBillgAmtTot>
+          <SalesOrgBillgAmtTot>664125.0000000</SalesOrgBillgAmtTot>
+          <PayerCntryCode>IND</PayerCntryCode>
+          <ShipToCntryCode>IND</ShipToCntryCode>
+          <SapSalesOrgCode>0063</SapSalesOrgCode>
+          <SapDistribtnChnlCode>A</SapDistribtnChnlCode>
+          <SapCoCode>0063</SapCoCode>
+          <CustVatNum>29CCCC19999CE1X</CustVatNum>
+          <SapExchgRateTypeCode>ZLPR</SapExchgRateTypeCode>
+          <SapDivCode>00</SapDivCode>
+          <PurchOrderNum>test123</PurchOrderNum>
+          <SapTaxCntryCode>IN</SapTaxCntryCode>
+          <CustVatPrtnrFunc>F</CustVatPrtnrFunc>
+          <CustVatCntryCode>IN</CustVatCntryCode>
+          <RefDocNum>0007100011</RefDocNum>
+          <AcctgAssgnmtNum>test123</AcctgAssgnmtNum>
+          <DocTaxAmt>119542.50</DocTaxAmt>
+          <CanceldBillgDocFlag>X</CanceldBillgDocFlag>
+          <AddDate>06/22/2017 12:56</AddDate>
+          <AddByUserName>DTATONE</AddByUserName>
+          <ModDate>06/22/2017 12:56</ModDate>
+          <ModByUserName>DTATONE</ModByUserName>
+          <SapExtrctDate>06/30/2017 05:26:57</SapExtrctDate>
+          <InvIndCode>O</InvIndCode>
+          <OpenInvTs>06/22/2017 12:56</OpenInvTs>
+          <TranCode>insert</TranCode>
+     </SapZodsbillingZ2odsbillHeader001>
+     <SapZodsbillingZ2odsbillLineItem003>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000010</BillgLineItemSeqNum>
+          <SapClnt>600</SapClnt>
+          <SapSalesOrdNum>0060003836</SapSalesOrdNum>
+          <LineItemSeqNum>000010</LineItemSeqNum>
+          <SapHighLevelItem>000000</SapHighLevelItem>
+          <PartNum>D5CS2LL</PartNum>
+          <PartQty>1.000</PartQty>
+          <ExchgRatePlan>    1.00000</ExchgRatePlan>
+          <LocalUnitPrice>0.00</LocalUnitPrice>
+          <UsdUnitPrice>0.0000000</UsdUnitPrice>
+          <SalesOrgUnitPrice>0.0000000</SalesOrgUnitPrice>
+          <LocalExtndPrice>0.00</LocalExtndPrice>
+          <UsdExtndPrice>0.0000000</UsdExtndPrice>
+          <SalesOrgExtndPrice>0.0000000</SalesOrgExtndPrice>
+          <SapDlvryDocNum>0036216901</SapDlvryDocNum>
+          <SapDivCode>00</SapDivCode>
+          <SapSalesOrgCode>0063</SapSalesOrgCode>
+          <SapDistribtnChnlCode>A</SapDistribtnChnlCode>
+          <SapSalesOfficeCode>0063</SapSalesOfficeCode>
+          <MatlTaxClassfctnCode>L</MatlTaxClassfctnCode>
+          <AddDate>06/22/2017 12:56</AddDate>
+          <AddByUserName>DTATONE</AddByUserName>
+          <ModDate>06/22/2017 12:56</ModDate>
+          <ModByUserName>DTATONE</ModByUserName>
+          <OrignlBillgLineItemNumSo>000000</OrignlBillgLineItemNumSo>
+          <Zzbillstrdt>20170622</Zzbillstrdt>
+          <Zzbillenddt>20180630</Zzbillenddt>
+          <Zzvatrate>           0</Zzvatrate>
+          <Zzvatamount>          0.00</Zzvatamount>
+     </SapZodsbillingZ2odsbillLineItem003>
+     <SapZodsbillingZ2odsbillLineItem003>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000020</BillgLineItemSeqNum>
+          <SapClnt>600</SapClnt>
+          <SapSalesOrdNum>0060003836</SapSalesOrdNum>
+          <LineItemSeqNum>000020</LineItemSeqNum>
+          <SapHighLevelItem>000010</SapHighLevelItem>
+          <PartNum>ATCSALL</PartNum>
+          <PartQty>1.000</PartQty>
+          <ExchgRatePlan>    1.00000</ExchgRatePlan>
+          <LocalUnitPrice>464887.50</LocalUnitPrice>
+          <UsdUnitPrice>7700.0000000</UsdUnitPrice>
+          <SalesOrgUnitPrice>464887.5000000</SalesOrgUnitPrice>
+          <LocalExtndPrice>464887.50</LocalExtndPrice>
+          <UsdExtndPrice>7700.0000000</UsdExtndPrice>
+          <SalesOrgExtndPrice>464887.5000000</SalesOrgExtndPrice>
+          <SapDlvryDocNum>0036216901</SapDlvryDocNum>
+          <SapDivCode>00</SapDivCode>
+          <SapSalesOrgCode>0063</SapSalesOrgCode>
+          <SapDistribtnChnlCode>A</SapDistribtnChnlCode>
+          <SapSalesOfficeCode>0063</SapSalesOfficeCode>
+          <MatlTaxClassfctnCode>L</MatlTaxClassfctnCode>
+          <AddDate>06/22/2017 12:56</AddDate>
+          <AddByUserName>DTATONE</AddByUserName>
+          <ModDate>06/22/2017 12:56</ModDate>
+          <ModByUserName>DTATONE</ModByUserName>
+          <OrignlBillgLineItemNumSo>000000</OrignlBillgLineItemNumSo>
+          <Zzbillstrdt>20170622</Zzbillstrdt>
+          <Zzbillenddt>20180630</Zzbillenddt>
+          <Zzvatrate>           0</Zzvatrate>
+          <Zzvatamount>          0.00</Zzvatamount>
+     </SapZodsbillingZ2odsbillLineItem003>
+     <SapZodsbillingZ2odsbillLineItem003>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000030</BillgLineItemSeqNum>
+          <SapClnt>600</SapClnt>
+          <SapSalesOrdNum>0060003836</SapSalesOrdNum>
+          <LineItemSeqNum>000030</LineItemSeqNum>
+          <SapHighLevelItem>000010</SapHighLevelItem>
+          <PartNum>ATCS8LL</PartNum>
+          <PartQty>1.000</PartQty>
+          <ExchgRatePlan>    1.00000</ExchgRatePlan>
+          <LocalUnitPrice>66412.50</LocalUnitPrice>
+          <UsdUnitPrice>1100.0000000</UsdUnitPrice>
+          <SalesOrgUnitPrice>66412.5000000</SalesOrgUnitPrice>
+          <LocalExtndPrice>66412.50</LocalExtndPrice>
+          <UsdExtndPrice>1100.0000000</UsdExtndPrice>
+          <SalesOrgExtndPrice>66412.5000000</SalesOrgExtndPrice>
+          <SapDlvryDocNum>0036216901</SapDlvryDocNum>
+          <SapDivCode>00</SapDivCode>
+          <SapSalesOrgCode>0063</SapSalesOrgCode>
+          <SapDistribtnChnlCode>A</SapDistribtnChnlCode>
+          <SapSalesOfficeCode>0063</SapSalesOfficeCode>
+          <MatlTaxClassfctnCode>L</MatlTaxClassfctnCode>
+          <AddDate>06/22/2017 12:56</AddDate>
+          <AddByUserName>DTATONE</AddByUserName>
+          <ModDate>06/22/2017 12:56</ModDate>
+          <ModByUserName>DTATONE</ModByUserName>
+          <OrignlBillgLineItemNumSo>000000</OrignlBillgLineItemNumSo>
+          <Zzbillstrdt>20170622</Zzbillstrdt>
+          <Zzbillenddt>20180630</Zzbillenddt>
+          <Zzvatrate>           0</Zzvatrate>
+          <Zzvatamount>          0.00</Zzvatamount>
+     </SapZodsbillingZ2odsbillLineItem003>
+     <SapZodsbillingZ2odsbillLineItem003>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000040</BillgLineItemSeqNum>
+          <SapClnt>600</SapClnt>
+          <SapSalesOrdNum>0060003836</SapSalesOrdNum>
+          <LineItemSeqNum>000040</LineItemSeqNum>
+          <SapHighLevelItem>000010</SapHighLevelItem>
+          <PartNum>ATCS9LL</PartNum>
+          <PartQty>1.000</PartQty>
+          <ExchgRatePlan>    1.00000</ExchgRatePlan>
+          <LocalUnitPrice>132825.00</LocalUnitPrice>
+          <UsdUnitPrice>2200.0000000</UsdUnitPrice>
+          <SalesOrgUnitPrice>132825.0000000</SalesOrgUnitPrice>
+          <LocalExtndPrice>132825.00</LocalExtndPrice>
+          <UsdExtndPrice>2200.0000000</UsdExtndPrice>
+          <SalesOrgExtndPrice>132825.0000000</SalesOrgExtndPrice>
+          <SapDlvryDocNum>0036216901</SapDlvryDocNum>
+          <SapDivCode>00</SapDivCode>
+          <SapSalesOrgCode>0063</SapSalesOrgCode>
+          <SapDistribtnChnlCode>A</SapDistribtnChnlCode>
+          <SapSalesOfficeCode>0063</SapSalesOfficeCode>
+          <MatlTaxClassfctnCode>L</MatlTaxClassfctnCode>
+          <AddDate>06/22/2017 12:56</AddDate>
+          <AddByUserName>DTATONE</AddByUserName>
+          <ModDate>06/22/2017 12:56</ModDate>
+          <ModByUserName>DTATONE</ModByUserName>
+          <OrignlBillgLineItemNumSo>000000</OrignlBillgLineItemNumSo>
+          <Zzbillstrdt>20170622</Zzbillstrdt>
+          <Zzbillenddt>20180630</Zzbillenddt>
+          <Zzvatrate>           0</Zzvatrate>
+          <Zzvatamount>          0.00</Zzvatamount>
+     </SapZodsbillingZ2odsbillLineItem003>
+     <SapZodsbillingZ2odsbillPricing000>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000010</BillgLineItemSeqNum>
+          <SapPriceCondCode>ZFIN</SapPriceCondCode>
+          <LocalExtndPrice>664125.00</LocalExtndPrice>
+          <ExtndPricePct>0.00</ExtndPricePct>
+          <LocalBaseLvlPrice>0.00</LocalBaseLvlPrice>
+          <SapExtrctDate>06/30/2017 05:26:57</SapExtrctDate>
+     </SapZodsbillingZ2odsbillPricing000>
+     <SapZodsbillingZ2odsbillPricing000>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000010</BillgLineItemSeqNum>
+          <SapPriceCondCode>ZP00</SapPriceCondCode>
+          <LocalExtndPrice>603750.00</LocalExtndPrice>
+          <ExtndPricePct>0.00</ExtndPricePct>
+          <LocalBaseLvlPrice>0.00</LocalBaseLvlPrice>
+          <SapExtrctDate>06/30/2017 05:26:57</SapExtrctDate>
+     </SapZodsbillingZ2odsbillPricing000>
+     <SapZodsbillingZ2odsbillPricing000>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000010</BillgLineItemSeqNum>
+          <SapPriceCondCode>ZP04</SapPriceCondCode>
+          <LocalExtndPrice>60375.00</LocalExtndPrice>
+          <ExtndPricePct>10.00</ExtndPricePct>
+          <LocalBaseLvlPrice>0.00</LocalBaseLvlPrice>
+          <SapExtrctDate>06/30/2017 05:26:57</SapExtrctDate>
+     </SapZodsbillingZ2odsbillPricing000>
+     <SapZodsbillingZ2odsbillPricing000>
+          <SapBillgDocNum>0007100011</SapBillgDocNum>
+          <BillgLineItemSeqNum>000010</BillgLineItemSeqNum>
+          <SapPriceCondCode>ZVAR</SapPriceCondCode>
+          <LocalExtndPrice>0.00</LocalExtndPrice>
+          <ExtndPricePct>0.00</ExtndPricePct>
+          <LocalBaseLvlPrice>0.00</LocalBaseLvlPrice>
+          <SapExtrctDate>06/30/2017 05:26:57</SapExtrctDate>
+     </SapZodsbillingZ2odsbillPricing000>
+</NS1:SapZodsbilling>

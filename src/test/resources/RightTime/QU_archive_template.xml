@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quote>
+    <Main>
+        <EVENT_ID>@Main_EVENT_ID@</EVENT_ID>
+        <BO_EVENT_ID>@Main_BO_EVENT_ID@</BO_EVENT_ID>
+        <EVENT_DATE>@Main_EVENT_DATE@</EVENT_DATE>
+        <EVENT_TIME>@Main_EVENT_TIME@</EVENT_TIME>
+        <WBI_TIME>2017-06-29T23:41:29.637339-04:00</WBI_TIME>
+    </Main>
+    <DocStat>
+        <Event>
+            <EVENT_ID>@Doc_EVENT_ID@</EVENT_ID>
+            <BO_EVENT_ID>@Doc_BO_EVENT_ID@</BO_EVENT_ID>
+            <EVENT_DATE>@Doc_EVENT_DATE@</EVENT_DATE>
+            <EVENT_TIME>@Doc_EVENT_TIME@</EVENT_TIME>
+            <WBI_TIME>2017-06-29T23:41:29.637339-04:00</WBI_TIME>
+        </Event>
+    </DocStat>
+    <Status>
+        <Message>Global Procedure Successfully Completed.</Message>
+    </Status>
+</Quote>

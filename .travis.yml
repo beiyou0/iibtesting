@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+before_install:
+  - ./gradlew check
+  - ./gradlew build
+  - ls -al ./build/libs
+notifications:
+  slack: dswesb2:5aJykBGV6MwSqdmhFmbnUv2u
